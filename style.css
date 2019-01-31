@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+/* Global Styling */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+/* Main Styling */
+
+/* body { font-family: monospace;} */
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  padding: 5rem;
+}
+
+.hero-img {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.hero-img img {
+  border-radius: 0.8rem;
+  max-width: 38rem;
+  width: 100%;
+}
+
+.header-title {
+    text-transform: capitalize;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.main-content {
+    text-align: justify;
+    font-size: 4rem;
+    max-width: 117rem;
+    width: 100%;
+    margin: 3rem auto 0 auto;
+    background: #ffc600;
+    padding: 3rem;
+    border: .8rem solid rgba(0, 0, 0, 0.08);
+    border-radius: .5rem;
+}
